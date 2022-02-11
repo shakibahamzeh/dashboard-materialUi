@@ -1,0 +1,54 @@
+.newUser{
+    flex: 4;
+}
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newUserItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px 0 0;
+}
+.newUserItem>label{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+.newUserItem>input{
+    height: 40px;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.newUserGender>input{
+    margin-top: 15px;
+}
+.newUserGender>label{
+    margin: 15px;
+    font-size: 18px;
+    color: #555;
+}
+.newUserLabel{
+   margin: 0 5px;
+}
+.newUserSelect{
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 5px;
+    outline: none;
+    border: 1px solid silver
+}
+.newUserButton{
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    padding: 7px 10px;
+}
+

@@ -1,0 +1,56 @@
+.newProduct{
+    flex: 4;
+}
+.newProductTitle{
+    margin-bottom: 20px;
+}
+
+
+.newProductItem{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newProductItem label{
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+.newProductItem input{
+    height: 40px;
+    padding: 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    outline: none;
+}
+.newProductUpload{
+    display: flex;
+    flex-direction: column;
+}
+.newProductUpload label{
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+}
+.newProductUpload input{
+    height: 40px;
+    padding: 10px;
+}
+.newProductItem>select{
+    border: 1px solid silver;
+    height: 40px;
+    outline: none;
+}
+.newProductButton{
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: darkblue;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top:20px ;
+}
